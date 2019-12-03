@@ -1,0 +1,261 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FakeStagram</title>
+  <link rel='icon' href='img/favicon.ico' type='image/x-icon' />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/overlay.js"></script>
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+  <section class="wrapper">
+    <ul class="column__list">
+      <li class="column__avatar">
+        <div class="column__title--wrapper">
+          <img src="img/avatar.jpg" alt="profile picture">
+        </div>
+      </li>
+
+      <li class="column__block" id=fadeshow1>
+        <div class="column__description--wrapper">
+          <h2>adventure_time</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        </div>
+      </li>
+      </u>
+  </section>
+  <section class="wrapper">
+    <ul class="column__list">
+      <li class="column__item" id=fadeshow2>
+        <div class="column__description--wrapper">
+          <h1>adventure_time</h1>
+        </div>
+      </li>
+
+      <!-- global overlay recall -->
+      <div id="overlay" onclick="off()">
+        <div class="overlaystate">
+          <div class="avatarsection" id=fadeshow2>
+            <li class="main__avatar">
+              <img src="img/avatar.jpg" alt="profile picture">
+            </li>
+            <li class="avatartext">
+              <p><b>adventure_time</b>
+                <br>Saigon, Vietnam<p></p>
+                <span class="visibility">
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </span>
+              </p>
+            </li>
+          </div>
+
+          <!--image recall -->
+          <div class="overimage">
+            <img id="myImage" src="">
+          </div>
+
+
+          <div class="overlaybar">
+            <div class="avatarsection" id=fadeshow1>
+              <li class="main__avatar">
+                <img src="img/avatar.jpg" alt="profile picture">
+              </li>
+              <li class="avatartext">
+                <p><b>adventure_time</b>
+                  <br>Saigon, Vietnam<p></p>
+                  <span class="visibility">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                  </span>
+                </p>
+              </li>
+            </div>
+            <div class="commentsection" id=fadeshow1>
+              <li class="overlay__avatar">
+                <img src="img/avatar.jpg" alt="profile picture">
+              </li>
+              <li class="overlaytext">
+                <p><b>adventure_time</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br>&nbsp
+                  <br>13m</p>
+              </li>
+            </div>
+            <div class="commentsection" id=fadeshow1>
+              <li class="overlay__avatar">
+                <img src="img/avatar2.jpg" alt="profile picture">
+              </li>
+              <li class="overlaytext">
+                <p><b>bonjour999</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br>&nbsp
+                  <br>11m</p>
+              </li>
+            </div>
+            <div class="commentsection" id=fadeshow1>
+            </div>
+            <div class="socialsection">
+              <span class="left">
+                <i class="far fa-heart fa-2x"></i>
+                <i class="far fa-comment fa-2x"></i>
+                <i class="far fa-share-square fa-2x"></i>
+                <br>
+                <p><b>1027 likes</b></p>
+                <p>13 minutes ago</p>
+
+              </span>
+              <span class="right">
+                <i class="far fa-bookmark fa-2x"></i>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- image 1-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/aaron-burden-GVnUVP8cs1o-unsplash.jpg" onclick="on('img/aaron-burden-GVnUVP8cs1o-unsplash.jpg')" alt="sunflower"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 2-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/amanda-phung-1w2xsyc2wwI-unsplash.jpg" onclick="on('img/amanda-phung-1w2xsyc2wwI-unsplash.jpg')" alt="ocean"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 3-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/annie-spratt-KCQz_b2Hgi8-unsplash.jpg" onclick="on('img/annie-spratt-KCQz_b2Hgi8-unsplash.jpg')" alt="flowers"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 4-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/casey-horner-4rDCa5hBlCs-unsplash.jpg" onclick="on('img/casey-horner-4rDCa5hBlCs-unsplash.jpg')" alt="trees"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 5-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/ivana-cajina-MBkQKiH14ng-unsplash.jpg" onclick="on('img/ivana-cajina-MBkQKiH14ng-unsplash.jpg')" alt="bay"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 6-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/joey-kyber-sFLVTqNzG2I-unsplash.jpg" onclick="on('img/joey-kyber-sFLVTqNzG2I-unsplash.jpg')" alt="plants"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 7-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/justin-kauffman-a8lTjWJJgLA-unsplash.jpg" onclick="on('img/justin-kauffman-a8lTjWJJgLA-unsplash.jpg')" alt="mountain trail"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 8-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/luca-bravo-ny6qxqv_m04-unsplash.jpg" onclick="on('img/luca-bravo-ny6qxqv_m04-unsplash.jpg')" alt="canoe"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 9-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg" onclick="on('img/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg')" alt="forest"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 10-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/redcharlie-k2zWqv_yfNM-unsplash.jpg" onclick="on('img/redcharlie-k2zWqv_yfNM-unsplash.jpg')" alt="jungle"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 11-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/shifaaz-shamoon-oR0uERTVyD0-unsplash.jpg" onclick="on('img/shifaaz-shamoon-oR0uERTVyD0-unsplash.jpg')" alt="ocean tide"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 12-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/sora-sagano-Dksk8szLRN0-unsplash.jpg" onclick="on('img/sora-sagano-Dksk8szLRN0-unsplash.jpg')" alt="koi fish"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 13-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/vincent-van-zalinge-_d0zgyMmYT8-unsplash.jpg" onclick="on('img/vincent-van-zalinge-_d0zgyMmYT8-unsplash.jpg')" alt="bird"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 14-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" onclick="on('img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg')" alt="blue bird"></img>
+          </div>
+        </li>
+      </div>
+
+      <!-- image 15-->
+      <div>
+        <li class="column__item">
+          <div class="column__title--wrapper">
+            <img src="img/westboundary-photography-chris-gill-lBL7rSRaNGs-unsplash.jpg" onclick="on('img/westboundary-photography-chris-gill-lBL7rSRaNGs-unsplash.jpg')" alt="waterfall"></img>
+          </div>
+        </li>
+      </div>
+
+  </section>
+
+</body>
+
+</html>
