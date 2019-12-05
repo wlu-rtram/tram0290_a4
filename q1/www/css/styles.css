@@ -3,9 +3,8 @@ body {
   font-family: Verdana, Arial;
 }
 
-.visibility{
-visibility: hidden;
-
+.visibility {
+  visibility: hidden;
 }
 
 .wrapper {
@@ -46,7 +45,6 @@ visibility: hidden;
 }
 
 .column__block {
-  background-color: ;
   padding: 2px;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -76,20 +74,37 @@ visibility: hidden;
     grid-template-columns: repeat(1, minmax(260px, 1fr));
   }
 
-  #fadeshow1 {
+  #fadeshowM1 {
     display: none;
   }
-  .overimage img{
+
+  #fadeshowM2 {
+    display: none;
+  }
+
+  #fadeshowM3 {
+    display: none;
+  }
+
+  #fadeshowM4 {
+    display: none;
+  }
+
+  #fadeshowM5 {
+    display: none;
+  }
+
+  .overimage img {
     width: 400px;
     height: 400px;
   }
-  .overlaystate{
-  height: 625px;
-  margin: auto;
-  margin-top: 35px;
-  background-color: white;
-  }
 
+  .overlaystate {
+    height: 625px;
+    margin: auto;
+    margin-top: 35px;
+    background-color: white;
+  }
 }
 
 /* Desktop */
@@ -99,52 +114,62 @@ visibility: hidden;
     grid-gap: 20px 54px;
   }
 
-  #fadeshow2 {
+  #fadeshowD1 {
     display: none;
   }
-  .overimage img{
+
+  #fadeshowD2 {
+    display: none;
+  }
+
+  .overimage img {
     width: 600px;
     height: 600px;
   }
-  .overlaystate{
-  width: 935px;
-  height: 600px;
-  margin: auto;
-  margin-top: 35px;
-  background-color: white;
-  display: grid;
-  grid-template-columns: auto auto auto;
+
+  .overlaystate {
+    width: 935px;
+    height: 600px;
+    margin: auto;
+    margin-top: 35px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
 
 #overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  cursor: pointer; /* Add a pointer on hover */
-
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  cursor: pointer;
+  /* Add a pointer on hover */
 }
 
+ul {
+    padding: 0;
+    list-style-type: none;
+}
 
-
-
-
-.overlaybar{
+.overlaybar {
   width: 335px;
   height: 600px;
-
 }
 
-.overlay__avatar{
-width: 50px;
-height: 120px;
-
+.overlay__avatar {
+  width: 50px;
+  height: 120px;
 }
 
 .overlay__avatar img {
@@ -163,8 +188,8 @@ height: 120px;
 }
 
 .overlaytext {
-text-align: left;
-padding-left: 10px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .overlaytext p {
@@ -181,8 +206,7 @@ padding-left: 10px;
   text-align: left
 }
 
-
-.commentsection{
+.commentsection {
   width: 335px;
   height: 120px;
   display: grid;
@@ -190,13 +214,13 @@ padding-left: 10px;
   column-gap: 0px;
 }
 
-.socialsection{
+.socialsection {
   width: 335px;
   height: 120px;
-  position: bottom:0;
+  bottom:0;
 }
 
-.avatarsection{
+.avatarsection {
   width: 335px;
   height: 70px;
   display: grid;
@@ -204,13 +228,14 @@ padding-left: 10px;
   column-gap: 0px;
 }
 
-i{
+i {
   margin: 5px;
 }
-.right{
-    float:right;
+
+.right {
+  float: right;
 }
 
-.left{
-    float:left;
+.left {
+  float: left;
 }
